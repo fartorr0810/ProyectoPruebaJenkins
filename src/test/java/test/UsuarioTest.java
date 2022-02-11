@@ -1,4 +1,4 @@
-package tests;
+package test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -7,7 +7,8 @@ import org.junit.jupiter.api.Test;
 
 import com.example.demo.model.Usuario;
 
-class UsuarioTests {
+class UsuarioTest {
+
 	Usuario user;
 	
 	@BeforeEach
@@ -17,8 +18,7 @@ class UsuarioTests {
 	
 	@Test
 	void test() {
-		assertEquals("Jonh Cena", user.getUsername());
-		assertEquals("TITIRTIII", user.getPassword());
+		assertEquals("TITIRIIII", user.getPassword());
 	}
 	
 }
