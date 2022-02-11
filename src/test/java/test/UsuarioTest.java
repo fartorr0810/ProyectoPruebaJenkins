@@ -18,7 +18,7 @@ class UsuarioTest {
 	
 	@Test
 	void test() {
-		assertEquals("TITIRIIII", user.getPassword());
+		assertEquals("TITIRITII", user.getPassword());
 	}
 	
 }
