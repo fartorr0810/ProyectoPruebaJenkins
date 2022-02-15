@@ -2,6 +2,8 @@ package com.example.demo;
 
 import java.util.Arrays;
 
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -20,6 +22,7 @@ public class ProyectoHibernateApplication extends SpringBootServletInitializer {
 
 	public static void main(String[] args) {
 		SpringApplication.run(ProyectoHibernateApplication.class, args);
+
 	}
 	/**
 	 * Metodo para precargar usuarios y productos en la base de datos.
